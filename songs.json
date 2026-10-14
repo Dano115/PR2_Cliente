@@ -1,0 +1,27 @@
+{
+  "song1": {
+    "cantante": "Jim Legxacy & Dave",
+    "name": "3x.m4a",
+    "cover": "covers/3x jim.jpg",
+    "cancion": "snd/Jim Legxacy x Dave  3x.m4a"
+  },
+
+  "song2": {
+    "cantante": "Central Cee",
+    "name": "Mrs",
+    "cover": "covers/23.jpg",
+    "cancion": "snd/Mrs.m4a"
+  },
+  "song3": {
+    "cantante": "Dave",
+    "name": "God's Eye",
+    "cover": "covers/god's eye.jpg",
+    "cancion": "snd/Gods Eye.m4a"
+  },
+  "song4": {
+    "cantante": "Dave",
+    "name": "StarLight",
+    "cover": "covers/starlight.jpg",
+    "cancion": "snd/Dave  Starlight.m4a"
+  }
+}

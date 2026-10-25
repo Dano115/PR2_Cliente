@@ -1,25 +1,120 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi spotify</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reproductor Musical</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
 </head>
 <body>
-    
-    <button id="start">Start</button>
-    <button id="stop">Stop</button> 
-    <button id="rwn">Rewind</button>
-    <button id="next">Next</button>
-    <button id="pause">Pause</button>
-    <button id="mute">Mute</button>
-    <button id="unmute">Unmute</button>
 
-    
-    <div id="content"></div>
-    <div id="lista"></div>
+  <!-- ENCABEZADO SUPERIOR -->
+  <header class="app-header">
+    <div class="logo-box">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+    </div>
+    <div>
+      <h1>Reproductor Musical</h1>
+      <p class="subtitle">Práctica M6 · JavaScript nativo + Howler.js</p>
+    </div>
+  </header>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>
-    <script src="howler.js"></script>
+  <!-- CONTENIDO PRINCIPAL -->
+  <div class="app-layout">
+    <!-- PANEL IZQUIERDO: LISTA DE CANCIONES -->
+    <main class="main-content">
+      <div class="list-header">
+        <h2>Lista de reproducción</h2>
+        <span id="total-songs-count">0 canciones</span>
+      </div>
+      <ul id="lista" class="song-list"></ul>
+    </main>
+
+    <!-- PANEL DERECHO: SONANDO AHORA Y ECUALIZADOR -->
+    <aside class="sidebar-right">
+      <!-- Tarjeta Sonando Ahora -->
+      <div class="now-playing-card">
+        <span class="badge">SONANDO AHORA</span>
+        <div class="card-details" id="card-details">
+          <img id="card-cover" src="https://picsum.photos/100" alt="Portada">
+          <div>
+            <h3 id="card-title">Selecciona canción</h3>
+            <p id="card-artist">---</p>
+            <span id="card-genre" class="genre-tag">Folk</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Caja del Ecualizador y Espectro de Ondas -->
+      <div class="eq-box">
+        <div class="eq-header">
+          <h3>Ecualizador</h3>
+          <span class="live-tag">espectro en vivo</span>
+        </div>
+
+        <!-- Canvas para Visualizador de Ondas -->
+        <canvas id="visualizer" width="280" height="70"></canvas>
+
+        <!-- Sliders Verticales -->
+        <div class="sliders-container">
+          <div class="eq-col">
+            <label>Graves</label>
+            <input type="range" id="eq-low" min="-12" max="12" value="0" step="1" orient="vertical">
+            <span id="val-low">0 dB</span>
+          </div>
+          <div class="eq-col">
+            <label>Medios</label>
+            <input type="range" id="eq-mid" min="-12" max="12" value="0" step="1" orient="vertical">
+            <span id="val-mid">0 dB</span>
+          </div>
+          <div class="eq-col">
+            <label>Agudos</label>
+            <input type="range" id="eq-high" min="-12" max="12" value="0" step="1" orient="vertical">
+            <span id="val-high">0 dB</span>
+          </div>
+        </div>
+
+        <button id="reset-eq" class="btn-reset">Restablecer ecualizador</button>
+      </div>
+    </aside>
+  </div>
+
+  <!-- BARRA INFERIOR DE REPRODUCCIÓN -->
+  <footer class="player-bar">
+    <!-- Barra de Tiempo Superior -->
+    <div class="time-scrubber-wrapper">
+      <span id="time-current">0:00</span>
+      <input type="range" id="progress" value="0" min="0" max="100" step="0.1">
+      <span id="time-total">0:00</span>
+    </div>
+
+    <div class="controls-wrapper">
+      <!-- Izquierda: Info Canción -->
+      <div class="mini-info">
+        <img id="bar-cover" src="https://picsum.photos/50" alt="Portada">
+        <div>
+          <div id="bar-title" class="bar-song-title">Sin reproducción</div>
+          <div id="bar-artist" class="bar-song-artist">---</div>
+        </div>
+      </div>
+
+      <!-- Centro: Botones Dinámicos -->
+      <div class="main-controls">
+        <button id="btn-prev" class="btn-icon">⏮</button>
+        <button id="btn-play-toggle" class="btn-play-main">▶</button>
+        <button id="btn-next" class="btn-icon">⏭</button>
+      </div>
+
+      <!-- Derecha: Volumen Único -->
+      <div class="volume-control">
+        <button id="btn-mute-toggle" class="btn-icon">🔊</button>
+        <input type="range" id="volume" min="0" max="1" step="0.01" value="0.8">
+        <span id="volume-val">80%</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

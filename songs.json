@@ -1,27 +1,276 @@
 {
   "song1": {
-    "cantante": "Jim Legxacy & Dave",
-    "name": "3x",
-    "cover": "covers/3x jim.jpg",
-    "cancion": "snd/Jim Legxacy x Dave  3x.m4a"
-  },
-
-  "song2": {
-    "cantante": "Central Cee",
-    "name": "Mrs",
-    "cover": "covers/23.jpg",
-    "cancion": "snd/Mrs.m4a"
-  },
-  "song3": {
+    "name": "Starlight",
     "cantante": "Dave",
+    "cover": "covers/starlight.jpg",
+    "cancion": "snd/Starlight.m4a"
+  },
+  "song2": {
     "name": "God's Eye",
+    "cantante": "Artista",
     "cover": "covers/god's eye.jpg",
     "cancion": "snd/Gods Eye.m4a"
   },
+  "song3": {
+    "name": "3x",
+    "cantante": "Jim Legxacy x Dave",
+    "cover": "covers/3x jim.jpg",
+    "cancion": "snd/Jim Legxacy x Dave  3x.m4a"
+  },
   "song4": {
-    "cantante": "Dave",
-    "name": "StarLight",
-    "cover": "covers/starlight.jpg",
-    "cancion": "snd/Dave  Starlight.m4a"
+    "name": "Mrs",
+    "cantante": "Artista",
+    "cover": "covers/23.jpg",
+    "cancion": "snd/Mrs.m4a"
+  },
+  "song5":{
+    "name":"1 Flow",
+    "cantante":"Nemzzz",
+    "cover":"covers/1flow.jpg",
+    "cancion":"snd/1 FLOW.m4a"
+  },
+   "song6":{
+    "name":"3rd Time Lucky",
+    "cantante":"AJ Tracey",
+    "cover":"covers/ddbyd.jpg",
+    "cancion":"snd/3rd Time Lucky.m4a"
+  },
+   "song7":{
+    "name":"4AM",
+    "cantante":"Nemzzz",
+    "cover":"covers/lockedin.jpg",
+    "cancion":"snd/4AM.m4a"
+  },
+  "song8":{
+    "name":"8AM in Manny",
+    "cantante":"Nemzzz",
+    "cover":"covers/8am.jpg",
+    "cancion":"snd/8AM IN MANNY.m4a"
+  },
+  "song9":{
+    "name":"101",
+    "cantante":"Nemzzz",
+    "cover":"covers/lockedin.jpg",
+    "cancion":"snd/101.m4a"
+  },
+  "song10":{
+    "name":"AP Freestyle",
+    "cantante":"Nemzzz",
+    "cover":"covers/ap.jpg",
+    "cancion":"snd/AP FREESTYLE.m4"
+  },
+  "song11":{
+    "name":"ATM",
+    "cantante":"Nemzzz",
+    "cover":"covers/atm.jpg",
+    "cancion":"snd/ATM.m4a"
+  },
+  "song12":{
+    "name":"ART FEAT. LATTO",
+    "cantante":"Nemzzz",
+    "cover":"covers/art.jpg",
+    "cancion":"snd/ART FEAT. LATTO.m4a"
+  },
+  "song13":{
+    "name":"BAD GAL RIRI",
+    "cantante":"Nemzzz",
+    "cover":"covers/rentsdue.jpg",
+    "cancion":"snd/BAD GAL RIRI .m4a"
+  },
+  "song14":{
+    "name":"BMF",
+    "cantante":"Nemzzz",
+    "cover":"covers/rentsdue.jpg",
+    "cancion":"snd/BMF.m4a"
+  },
+  "song15":{
+    "name":"BOOGA",
+    "cantante":"Central Cee",
+    "cover":"covers/booga.jpg",
+    "cancion":"snd/BOOGA.m4a"
+  },
+  "song16":{
+    "name":"BRB",
+    "cantante":"Nemzzz",
+    "cover":"covers/lockedin.jpg",
+    "cancion":"snd/BRB.m4a"
+  },
+  "song17":{
+    "name":"CLIENTELE feat. Tunde",
+    "cantante":"Nemzzz",
+    "cover":"covers/lockedin.jpg",
+    "cancion":"snd/CLIENTELE feat. Tunde.m4a"
+  },
+  "song18":{
+    "name":"COLD",
+    "cantante":"Nemzzz",
+    "cover":"covers/rentsdue.jpg",
+    "cancion":"snd/COLD.m4a"
+  },
+  "song19":{
+    "name":"CRG FEAT. DAVE",
+    "cantante":"Central Cee",
+    "cover":"covers/crg.jpg",
+    "cancion":"snd/CRG FEAT. DAVE.m4a"
+  },
+  "song20":{
+    "name":"DILEMMA FEAT. CENTRAL CEE",
+    "cantante":"Nemzzz",
+    "cover":"covers/rentsdue.jpg",
+    "cancion":"snd/DILEMMA FEAT. CENTRAL CEE.m4a"
+  },
+  "song21":{
+    "name":"Disaster",
+    "cantante":"Dave",
+    "cover":"covers/psycodrama.jpg",
+    "cancion":"snd/Disaster.m4a"
+  },
+  "song22":{
+    "name":"DONT KNOW ANYMORE",
+    "cantante":"Central Cee",
+    "cover":"covers/crg.jpg",
+    "cancion":"snd/DONT KNOW ANYMORE.m4a"
+  },
+  "song23":{
+    "name":"Funky Friday ft. Fredo",
+    "cantante":"Dave",
+    "cover":"covers/ff.jpg",
+    "cancion":"snd/Funky Friday ft. Fredo.m4a"
+  },
+  "song24":{
+    "name":"GATA FEAT. YOUNG MIKO",
+    "cantante":"Central Cee",
+    "cover":"covers/crg.jpg",
+    "cancion":"snd/GATA FEAT. YOUNG MIKO.m4a"
+  },
+  "song25":{
+    "name":"Gatlin Gun",
+    "cantante":"Dave x AJ Tracey",
+    "cover":"covers/gg.jpg",
+    "cancion":"snd/Gatlin Gun.m4a"
+  },
+  "song26":{
+    "name":"Hangman",
+    "cantante":"Dave",
+    "cover":"covers/hangman.jpg",
+    "cancion":"snd/Hangman.m4a"
+  },
+  "song27":{
+    "name":"Heart Attack",
+    "cantante":"Dave",
+    "cover":"covers/waaitt.jpg",
+    "cancion":"snd/Heart Attack.m4a"
+  },
+  "song28":{
+    "name":"In The Fire",
+    "cantante":"Dave",
+    "cover":"covers/waaitt.jpg",
+    "cancion":"snd/In The Fire.m4a"
+  },
+  "song29":{
+    "name":"LIMITLESS",
+    "cantante":"Central Cee",
+    "cover":"covers/crg.jpg",
+    "cancion":"snd/LIMITLESS.m4a"
+  },
+  "song30":{
+    "name":"Little More Love",
+    "cantante":"AJ Tracey",
+    "cover":"covers/lml.jpg",
+    "cancion":"snd/Little More Love.m4a"
+  },
+  "song31":{
+    "name":"Meridian feat. Tiakola",
+    "cantante":"Dave",
+    "cover":"covers/m&s.jpg",
+    "cancion":"snd/meridian.m4a"
+  },
+  "song32":{
+    "name":"MUST BE",
+    "cantante":"Central Cee",
+    "cover":"covers/crg.jpg",
+    "cancion":"snd/MUST BE.m4a"
+  },
+
+  "song33":{
+    "name":"NO INTRODUCTION",
+    "cantante":"Central Cee",
+    "cover":"covers/crg.jpg",
+    "cancion":"snd/NO INTRODUCTION.m4a"
+  },
+  "song34":{
+    "name":"One Up",
+    "cantante":"Central Cee",
+    "cover":"covers/nomoreleaks.jpg",
+    "cancion":"snd/One Up.m4a"
+  },
+  "song35":{
+    "name":"Raindance feat. Tems",
+    "cantante":"Dave",
+    "cover":"covers/tbhpth.jpg",
+    "cancion":"snd/Raindance.m4a"
+  },
+  "song36":{
+    "name":"Samantha feat. JHUS",
+    "cantante":"Dave",
+    "cover":"covers/samantha.jpg",
+    "cancion":"snd/Samantha.m4a"
+  },
+  "song37":{
+    "name":"Street Starz Freestyle",
+    "cantante":"Dave",
+    "cover":"covers/ss.jpg",
+    "cancion":"snd/Street Starz Freestyle.m4a"
+  },
+  "song38":{
+    "name":"Selfish feat. James Blake",
+    "cantante":"Dave",
+    "cover":"covers/tbhpth.jpg",
+    "cancion":"snd/Selfish.m4a"
+  },
+  "song39":{
+    "name":"ST. PATRICKS",
+    "cantante":"Central Cee",
+    "cover":"covers/crg.jpg",
+    "cancion":"snd/ST. PATRICKS.m4a"
+  },
+  "song40":{
+    "name":"The Boy Who Played the Harp",
+    "cantante":"Dave",
+    "cover":"covers/tbhpth.jpg",
+    "cancion":"snd/The Boy Who Played the Harp.m4a"
+  },
+  "song41":{
+    "name":"THERAPY",
+    "cantante":"Nemzzz",
+    "cover":"covers/therapy.jpg",
+    "cancion":"snd/THERAPY.m4a"
+  },
+  "song42":{
+    "name":"Thiago Silva",
+    "cantante":"Dave x AJ Tracey",
+    "cover":"covers/gg.jpg",
+    "cancion":"snd/Thiago Silva.m4a"
+  },
+  "song43":{
+    "name":"TOKYO DRIFT",
+    "cantante":"Nemzzz",
+    "cover":"covers/lockedin.jpg",
+    "cancion":"snd/TOKYO DRIFT.m4a"
+  },
+  "song44":{
+    "name":"Trojan Horse",
+    "cantante":"Dave x Central Cee",
+    "cover":"covers/splitdecision.jpg",
+    "cancion":"snd/Trojan Horse.m4a"
+  },
+  "song45":{
+    "name":"Verdansk",
+    "cantante":"Dave",
+    "cover":"covers/waaitt.jpg",
+    "cancion":"snd/Verdansk.m4a"
   }
+
+
+  
 }
